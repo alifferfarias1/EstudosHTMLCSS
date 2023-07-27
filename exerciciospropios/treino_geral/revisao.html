@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="faviconskt.ico">
+    <style> .cor-mark{background-color: aqua;}</style>
+
+    <title>Revisão</title>
+</head>
+<body>
+    <h1>Essa é minha revisão de <abbr title="Hyper Text Markup Language">
+        HTML</abbr></h1>
+    <h2>Primeiro vamos ver os paragrafos e <br> quebras de linha</h2>
+    <p>Podemos quebrar linha usando o &lt;br&gt;
+    <p>podemos fazer uma linha horizontal usando &lt;hr&gt;</p>
+    <hr>
+    <h2>Agora vamos as imagens</h2>
+    <p>Você pode carregar imagens contanto que esteja na mesma Pasta, usando a tag
+         &lt;img&gt;</p>
+        <img src="PNGBASKET.webp" alt="IconeBaskete">
+    
+    <p>Também podemos carregar imagens externas passando o link da imagem como referencia.</p>
+        <img src="https://imgs.casasbahia.com.br/1546694201/1xg.jpg?imwidth=500" alt="bolaverde">
+    
+    <h2>Vamos aos icones do navegador dentro das tags &lt;head&gt;</h2>
+    <p>Insira a tag link dentro das tags head, é recomendavel usar o formato .ico </p>
+    
+    <h2>Hierarquia de titulos</h2>
+    <p>Você sempre deve respeitar a hierarquia de titulos &lt;h1&gt; é o titulo principal
+        &lt;h2&gt; o primeiro sub titulo e assim suscessivamente até o menor que é o h6 </p>
+        <h3>Sub titulo h3</h3>
+        <p>paragrafo do subtitulo h3</p>
+        <h4>sub titulo do h4 </h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, voluptas sunt? Quam accusamus rem dolorem praesentium blanditiis, recusandae explicabo delectus quis amet eveniet vel esse, iusto molestias illum aliquid rerum.</p>
+        <h2>Formatação de texto</h2>
+        <h3>Negrito</h3>
+        <p>Temos dois jeitos para deixar em negrito usando o b <b>(nao semantica)</b>
+            e temos a tag strong <strong>(semantica)</strong> </p>
+        <h3>Italico</h3>
+        <p>Temos duas formas de deixar em italico usando a tag i <i>(não semantica)</i> ou 
+            a tag em <em>(semantica)</em></p>
+        <h3>Texto grande e pequeno</h3>
+        <p>Podemos deixar um texto pequeno usando <small>small</small> e grande 
+            usando <big>big</big> a tag big é considerada obsoleta.</p>
+        <h3>Texto deletado</h3>
+        <p>Podemos usar a tag del para um texto que deve ser lido <del>mas não considerado</del></p>
+        <h3>Texto inserido</h3>
+        <p>Podemos usar a tag ins para um <ins>texto que foi inserido</ins> também podemos usar a tag 
+        u para sublinhar porém ela não é semantica</p>
+        <h3>Texto sobrescrito</h3>
+        <p>Podemos usar a tag sup para coisas do tipo X<sup>20</sup>+3</p>
+        <p>Podemos usar a tag sub para coisas do tipo H<sub>2</sub>O</p>
+        <h2>Codigo Fonte</h2>
+        <p>Usamos duas tags juntas para inserir um codigo corretamente, code em 
+            volta do codigo e pre em volta do code </p>
+        
+        <pre>
+            <code>
+                nome = input('Digite seu nome: ')
+                print(f'Seu nome é {nome}')
+                if nome:
+                    numero = 3
+                    numero + 2
+                    print(numero)
+                print('Acabou')
+                </code>
+        </pre>
+        <h2>Citações </h2>
+        <h3>Citaçoes simples</h3>
+        <p>Uma citação simples e pequena que envolve a citação em aspás usando a tag &lt;q&gt;
+            
+                o pai do meu amigo disse uma vez <q>
+                    não seras o burro
+                    mais rapido se nao fores o burro mais burro
+                </q>
+        </p>
+        <h3>Citação completa usando blockquote</h3>
+        <p>Você deve inserir o link do site que contém a citação <br> segundo albert einsten</p>
+        <blockquote cite="https://www.pensador.com/frases_de_albert_einstein/">Duas coisas são infinitas: o universo e a estupidez humana. Mas, em relação ao universo, 
+            ainda não tenho certeza absoluta.</blockquote>
+            <h2>Texto invertido</h2>
+            <p>Para isso usamos bdo(dir=rtl)</p>
+            <bdo dir="rtl">canela</bdo>
+            <h2>Vamos usar o mark como marcador de texto</h2>
+            <p>ei marque essa palavra para mim: <mark>biscuit</mark> esse marcador padrão é verde, mas podemos mudalo 
+                usando css <mark class="cor-mark">marque</mark> de outra cor agora 
+            </p>
+            <h2>Agora listas</h2>
+            <p>Vamos fazer uma lista dentro de uma lista dentro de outra lista <br> para isso podemos
+            usar a tag ol para listas ordenadas e ul para não ordenadas</p>
+            <h3>Lista ordenada</h3>
+            <ol> 
+                <li>Podemos usar o type= dentro do ol para mudar o simbolo da contagem</li>
+                <ol type="I">
+                    <li>Estamos fazendo essa em romano um lista ordenada</li>
+                    <li>elemento 2</li>
+                    <li>elemento 3</li>
+                </ol>
+                <li>Numeros Normais</li>
+                <ol type="1" start="4">
+                    <li>Contagemmmmmmm</li>
+                    <li>agora usando type + o comando start escolhemos o tipo da contagem e de onde começara</li>
+                </ol>
+            </ol>
+            <h3>Listas não ordenadas</h3>
+            <p>mesma coisa podemos selecionar o type porém start não</p>
+            <ul>
+                <li>Jogos favoritos Xbox</li>
+                <ul type="circle">
+                    <li>Donkey Kong</li>
+                    <li>The Witcher</li>
+                    <li>Overcooked 2</li>
+                </ul>
+                <li>Jogos favoritos PC</li>
+                <ul type="square">
+                    <li>Counter Strike</li>
+                    <li>GTA V</li>
+                    <li>Roblox</li>
+                </ul>
+            </ul>
+            <h2>Para finalizar links</h2>
+            <p>Dentro de um paragrafo usamos a tag a envolvendo o trecho de link 
+                por exemplo entre no meu  github<a href="https://github.com/alifferfarias1/alifferfarias1" 
+                target="_blank" rel="external"> /alifferfarias1/alifferfarias1</a> <br>
+                geraria esse resultado usamos usando dois comando nela para abrir a pagina em uma nova guia 
+                e não sair dos eu site target=blank rel= external 
+            </p>
+            
+    </body>
+</html>

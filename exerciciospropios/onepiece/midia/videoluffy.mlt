@@ -1,0 +1,123 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.17.0" title="Shotcut version 23.05.14" producer="main_bin">
+  <profile description="automatic" width="500" height="282" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="250" display_aspect_den="141" frame_rate_num="10" frame_rate_den="1" colorspace="601"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:10.700">
+    <property name="length">00:00:10.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:10.700"/>
+  </playlist>
+  <chain id="chain0" out="00:00:00.400">
+    <property name="length">00:00:00.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Aliffer Alves/Desktop/juntargifs/one-piece.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2023-06-10T22:00:59</property>
+    <property name="shotcut:hash">958eda8e99f98d913a367c23c5427fad</property>
+    <property name="shotcut:caption">one-piece.mp4</property>
+  </chain>
+  <chain id="chain1" out="00:00:00.400">
+    <property name="length">00:00:00.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Aliffer Alves/Desktop/juntargifs/one-piece.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2023-06-10T22:00:59</property>
+    <property name="shotcut:hash">958eda8e99f98d913a367c23c5427fad</property>
+    <property name="shotcut:caption">one-piece.mp4</property>
+  </chain>
+  <chain id="chain2" out="00:00:00.400">
+    <property name="length">00:00:00.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Aliffer Alves/Desktop/juntargifs/one-piece.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2023-06-10T22:00:59</property>
+    <property name="shotcut:hash">958eda8e99f98d913a367c23c5427fad</property>
+    <property name="shotcut:caption">one-piece.mp4</property>
+  </chain>
+  <chain id="chain3" out="00:00:03.700">
+    <property name="length">00:00:03.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Aliffer Alves/Desktop/juntargifs/luffy-gear 3.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2023-06-10T22:02:45</property>
+    <property name="shotcut:hash">37c46361f427765473f270a641a24486</property>
+    <property name="shotcut:caption">luffy-gear 3.mp4</property>
+  </chain>
+  <chain id="chain4" out="00:00:01.100">
+    <property name="length">00:00:01.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Aliffer Alves/Desktop/juntargifs/luffy-monkey-d-luffy gear4.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2023-06-10T22:01:16</property>
+    <property name="shotcut:hash">5d1006aa2c2e14e66f00f25a3e8b5813</property>
+    <property name="shotcut:caption">luffy-monkey-d-luffy gear4.mp4</property>
+  </chain>
+  <chain id="chain5" out="00:00:04.900">
+    <property name="length">00:00:05.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Aliffer Alves/Desktop/juntargifs/luffy-gear-5.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2023-06-10T22:02:54</property>
+    <property name="shotcut:hash">1d706dcd484fc42a98961a008faeaede</property>
+    <property name="shotcut:caption">luffy-gear-5.mp4</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:00.400"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:00:00.400"/>
+    <entry producer="chain2" in="00:00:00.000" out="00:00:00.400"/>
+    <entry producer="chain3" in="00:00:00.000" out="00:00:03.700"/>
+    <entry producer="chain4" in="00:00:00.000" out="00:00:01.100"/>
+    <entry producer="chain5" in="00:00:00.000" out="00:00:04.200"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 23.05.14" in="00:00:00.000" out="00:00:10.700">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
