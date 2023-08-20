@@ -9,144 +9,40 @@
     font-weight: normal;
 }
 
-article.segundo {
-    background-color: white;
-    width: 850px;
-    border-radius: 5px 9px 25px 25px;
-    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.698);
-    padding: 10px 10px 13px 11px;
-    margin: 40px 1px 6px 17px;
-    
 
-}
 
-.habilidades { background-color: white;
-    width: 850px;
-    border-radius: 5px 9px 25px 25px;
-    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.698);
-    padding: 10px 10px 13px 10px;
-    margin: 40px 1px 6px 17px;
-   
-}
-
-section.primeira {
-    background-color: white;
-    width: 850px;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.400);
-    padding: 20px 10px 15px 6px;
-    margin: 40px 1px 6px 17px;
-   
-    
-}
-
-section.segunda {
-    background-color: white;
-    width: 850px;
-    border-radius: 21px 16px 16px 16px;
-    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.698);
-    padding: 20px 10px 15px 6px;
-    margin: 40px 1px 6px 17px;
-    
-    
+body{
+    margin: 0px;
+    padding: 0px;
 }
 
 
-
-
-
-footer {
-    background-color: rgb(2, 2, 2);
-    text-align: center;
-    width: 500px;
-    margin: 20px 10px 10px 415px;
-    padding: 8px;
-    border-radius: 3px;
-
-    border: 1px solid white;
-}
-
-footer>a {
-    text-decoration: none;
-}
-
-footer:hover {
-    text-decoration: underline;
-    color: #0515a7;
-}
-
-footer>a:visited {
-    color: white;
-}
-
-
-header > p {
-    font-family: 'Trebuchet MS', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    text-align: center;
-    text-indent: 30px;
-}
-
-
-
-
-
-p {
-    font-style: normal;
-    font-weight: 300;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: justify;
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    text-indent: 30px;
-}
-
-h1 {
-    font-family: 'Fredericka the Great', sans-serif;
-    color: #111b74;
-    font-weight: normal;
-    text-shadow: 2px 2px 5px #062531;
-    text-align: center;
-}
-
-h2 {
-    font-family: 'Death Space', sans-serif;
-    color: #000106;
-    text-shadow: 1px 1px 1px #01232e;
-    font-weight: 600;
-    text-decoration: underline;
-
-}
-
-body {
-    background-image: linear-gradient(to right, #034159, #025951, #009277);
-}
-
-header {
-    width: 910px;
-    background-color: white;
-    margin: 14px 9px 10px 205px;
-    border-radius: 6px 10px;
-    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.393);
-    padding: 7px 3px 4px 6px;}
-
-main {
-    background-color: white;
-    width: 900px;
-    border-radius: 5px 15px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.393);
-    padding: 10px;
+header{
+    width: 50%;
+    height: 400px;
     margin: auto;
+    /* background-color: rgb(218, 213, 213); */
+    background-image: url(imgs/background\ correto.jpg);
+    background-size: 600px;
+    background-repeat: repeat;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 2px;
+}
+header q{
+    margin-left: 80px;
+
+}
+
+header>img{
+    margin-left: 160px;
+}
+ 
+
+header p h1{
+    padding: 10px;
+    text-align: justify;
+    text-indent: 2em;
 }
 
 
-h3 {
-    color: #0515a7;
-    font-family: 'Bebas Neue', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    text-decoration: underline;
-    text-shadow: 1px 1px 1px #00010663;
-}
