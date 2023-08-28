@@ -40,7 +40,6 @@ iframe#tela{
     left: 19px;
     width: 230px;
     height: 403px;
-    overflow-y: hidden;
 
 }
 
@@ -64,3 +63,4 @@ section#redes-sociais > a> img:hover{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.508);
     transition: transform 0.5s, border 1.2s;
 }
+
