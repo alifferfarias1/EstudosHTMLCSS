@@ -11,18 +11,21 @@
 
 
 
-body{
+body {
     margin: 0px;
     padding: 0px;
-    background-image: linear-gradient(to right, #6089B4, #62B1CC);
+    background-image: url(imgs/background\ body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-header{
+
+header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 90%;
+    width: 86.5%;
     height: 400px;
     margin: auto;
     /* background-color: rgb(218, 213, 213); */
@@ -35,33 +38,41 @@ header{
 }
 
 
-header p{
+header p {
     text-align: justify;
     text-indent: 1.4em;
     font-size: 17px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.261), transparent);
-    padding: 3px;
-    
+    background-image: linear-gradient(to right, rgba(33, 33, 33, 0.196), transparent);
+    padding: 6px;
+
 }
 
-header h1{
+header h1 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.456);
+    back
 }
 
-main{
+main {
+    font-size: 17px;
     margin: auto;
     height: 95%;
-    width: 89%;
+    width: 85%;
     background-color: white;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.85);
     padding: 7px;
+    margin-top: 5px;
 }
 
-main section{
-    background-color: rgba(0, 0, 0, 0.626);
+main>section.passado {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.626);
 }
 
-
-    
-
-
+section.passado>img {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.535);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.415);
+    height: 500px;
+    margin: auto;
+}
